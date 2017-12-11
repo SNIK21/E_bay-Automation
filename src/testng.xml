@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+<parameter name="browserType" value="firefox"/>
+<parameter name="appURL" value="https://www.ebay.com/"/>
+
+  <test name="sample test">
+    <classes>
+      <class name="com.ebay.actionmodule.SearchPageAction"/>
+      <!-- <class name="com.pack.common.tests.SignInPageTest"/>
+      <class name="com.pack.common.tests.CreateAnAccounTest"/> -->
+    </classes>
+  </test>
+</suite>
